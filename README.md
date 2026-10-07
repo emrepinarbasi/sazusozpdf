@@ -1,9 +1,5 @@
 # Saz ü Söz
 
-<p align="center">
-  <img src="https://drive.google.com/file/d/129NUgRv0vxYBVsEYBBFVcsrfFR8Xrm4Q/view?usp=sharing" alt="Saz ü Söz logosu" width="640">
-</p>
-
 **Saz ü Söz**, müzisyenler için geliştirilmiş Türkçe bir Android nota ve PDF okuyucusudur. Eserleri listeler hâlinde düzenlemeyi, PDF veya nota dosyalarını görüntülemeyi, sayfalar üzerinde kalıcı notlar almayı ve sayfaları eller serbest biçimde çevirmeyi amaçlar.
 
 Bu depo **v0.1** kaynak kodunu içerir.
