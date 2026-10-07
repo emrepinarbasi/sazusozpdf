@@ -1,32 +1,33 @@
-# Saz ü Söz
+# Saz Pdf
 
 <p align="center">
   <img src="https://github.com/emrepinarbasi/sazusoz/releases/download/v0.1/ChatGPT.Gorseli.7.Eki.2026.22_16_21.png" alt="Saz ü Söz logosu" width="640">
 </p>
 
-**Saz ü Söz**, müzisyenler için geliştirilmiş Türkçe bir Android nota ve PDF okuyucusudur. Eserleri listeler hâlinde düzenlemeyi, PDF veya nota dosyalarını görüntülemeyi, sayfalar üzerinde kalıcı notlar almayı ve sayfaları eller serbest biçimde çevirmeyi amaçlar.
+**Saz Pdf**, müzisyenler için geliştirilmiş Türkçe bir Android PDF ve nota okuyucusudur. Belgeleri listeler hâlinde düzenlemeyi, sayfalar üzerinde kalıcı notlar almayı ve nota sayfalarını dokunarak, Bluetooth pedal/klavye veya yüz hareketleriyle çevirmeyi sağlar.
 
-Bu depo **v0.1** kaynak kodunu içerir.
+Bu depo **Saz Pdf v1.0** kaynak kodunu içerir.
 
 ## Öne çıkan özellikler
 
-- Tamamen Türkçe arayüz
-- Marka renkleri, özel logo ve animasyonlu açılış
+- Tamamen Türkçe kullanıcı arayüzü
+- Saz ü Söz marka tasarımı, özel uygulama simgesi ve animasyonlu açılış
 - PDF, Guitar Pro ve MusicXML dosyalarını görüntüleme
-- Dosyaları yeniden adlandırılabilir ve silinebilir listelerde düzenleme
-- Küçük sayfa önizlemeleri ve tam ekran okuma
-- Dikey veya yatay sayfa geçişi
-- Ekran yönüne uygun “Sayfaya sığdır” davranışı
+- Dosyaları listeler hâlinde düzenleme
+- Liste oluşturma, yeniden adlandırma ve silme
+- Dikey ve yatay ekran desteği
+- Ekran yönünü koruyan **Sayfaya sığdır** davranışı
 - İki parmakla yakınlaştırma, uzaklaştırma ve sayfayı taşıma
+- Sağdan sola yatay veya yukarıdan aşağıya dikey sayfa geçişi
+- Küçük sayfa önizlemeleri ve tam ekran okuma
 - Kalem, fosforlu kalem, silgi, geri alma ve çizgi seçme araçları
-- Siyah, mavi, kırmızı, yeşil ve beyaz renk paleti
-- PDF üzerine yazılan notları sonraki açılışlarda düzenleme veya silme
-- Kalem kullanımında gelişmiş avuç içi reddetme
+- Siyah, mavi, kırmızı, yeşil ve beyaz renk seçenekleri
+- PDF notlarını sonraki açılışlarda düzenleme veya silme
+- Gelişmiş avuç içi reddetme
 - Yüz hareketleriyle ileri ve geri sayfa kontrolü
-- Baş hareketi, göz kırpma ve ağız hareketi seçenekleri
-- Bluetooth pedal/klavye ile sayfa çevirme
-- Otomatik sayfa çevirme ve ekran zaman aşımı seçenekleri
-- Çevrimdışı çalışma; kamera görüntüsü cihaz dışına gönderilmez
+- Bluetooth pedal ve klavye ile sayfa çevirme
+- Ayarlanabilir otomatik sayfa çevirme
+- Çevrimdışı çalışma
 
 ## Desteklenen dosya türleri
 
@@ -37,29 +38,30 @@ Bu depo **v0.1** kaynak kodunu içerir.
 ## Sistem gereksinimleri
 
 - Android 10 veya üzeri (API 29+)
-- ARM64 Android cihaz
+- ARM64 Android telefon veya tablet
 - Yüz hareketleri kullanılacaksa ön kamera izni
 
 ## Kurulum
 
-1. GitHub **Releases** bölümündeki `Saz-u-Soz-v0.1.apk` dosyasını indirin.
-2. Android ayarlarında kullandığınız tarayıcı veya dosya yöneticisi için “Bilinmeyen uygulamaları yükle” iznini açın.
-3. APK dosyasını çalıştırıp kurulumu tamamlayın.
-4. Uygulamayı açın, bir liste oluşturun ve **Dosya ekle** düğmesiyle belgenizi seçin.
+1. GitHub **Releases** bölümünden `Saz-Pdf-v1.0.apk` dosyasını indirin.
+2. Gerekirse tarayıcı veya dosya yöneticiniz için **Bilinmeyen uygulamaları yükle** iznini etkinleştirin.
+3. APK dosyasını açıp kurulumu tamamlayın.
+4. **Saz Pdf** uygulamasını çalıştırın.
+5. Bir liste oluşturun ve **Dosya ekle** seçeneğiyle belgenizi seçin.
 
-> v0.1 APK’sı doğrudan kurulum ve test için hazırlanmıştır. Daha sonraki bir sürüm farklı imzayla yayımlanırsa önceki test sürümünün kaldırılması gerekebilir.
+Uygulamanın paket kimliği `com.emrepinarbasi.sazusoz` olarak belirlenmiştir. Bu kimlik, ExCoda uygulamasıyla kurulum çakışmasını önler.
 
-## Kalem ve notlar
+## Kalem ve not sistemi
 
-Kalem araçları açıldığında varsayılan olarak siyah kalem seçilir. Notlar belge ve sayfa ile ilişkilendirilerek yerel veritabanında saklanır. Kayıtlı çizgiler yeniden seçilebilir, rengi veya kalınlığı değiştirilebilir, silinebilir ve geri alınabilir.
+Kalem araçları açıldığında siyah kalem varsayılan olarak seçilir. Çizimler belge ve sayfayla ilişkilendirilerek cihazdaki yerel veritabanında saklanır. Kayıtlı çizgiler daha sonra seçilebilir, düzenlenebilir, silinebilir veya geri alınabilir.
 
-Kalem algılandığında parmak ve avuç temasları çizime dönüştürülmez. Yakınlaştırma ve taşıma işlemleri iki parmakla yapılabilir.
+Kalem algılandığında parmak ve avuç temasları çizime dönüştürülmez. Sayfayı yakınlaştırmak, uzaklaştırmak veya taşımak için iki parmak kullanılabilir.
 
 ## Eller serbest kontrol
 
-Yüz hareketleri cihaz kamerası ve MediaPipe kullanılarak cihaz üzerinde değerlendirilir. İleri ve geri hareketler ayrı ayrı seçilebilir ve kalibre edilebilir. Bluetooth pedal veya klavye tuşları da sayfa çevirmek için kullanılabilir.
+Yüz hareketleri cihaz kamerası ve MediaPipe kullanılarak cihaz üzerinde değerlendirilir. İleri ve geri sayfa hareketleri ayrı ayrı seçilebilir ve kullanıcıya göre kalibre edilebilir. Bluetooth pedal veya klavye tuşları da sayfa çevirmek için kullanılabilir.
 
-Hareket algılama; ışık, kamera açısı, cihaz performansı ve kullanıcıya göre değişebilir. Kritik sahne kullanımlarından önce ayarların prova edilmesi önerilir.
+Hareket algılama başarımı ışık, kamera açısı, cihaz performansı ve kullanıcıya göre değişebilir. Sahne kullanımından önce ayarların prova edilmesi önerilir.
 
 ## Kaynak koddan derleme
 
@@ -69,7 +71,7 @@ Gereksinimler:
 - JDK 21
 - Android SDK 37
 
-Derleme:
+Derleme komutu:
 
 ```bash
 ./gradlew :app:assembleDebug
@@ -78,12 +80,12 @@ Derleme:
 Oluşan APK:
 
 ```text
-app/build/outputs/apk/debug/Saz-u-Soz-v0.1.apk
+app/build/outputs/apk/debug/Saz-Pdf-v1.0.apk
 ```
 
 ## Gizlilik
 
-Uygulama kullanıcı dosyalarını, notlarını veya kamera görüntülerini bir sunucuya göndermez. Yüz hareketi analizi cihaz üzerinde yapılır. Kamera yalnızca hareket kontrolü etkinleştirildiğinde kullanılır.
+Saz Pdf; kullanıcı dosyalarını, notlarını veya kamera görüntülerini bir sunucuya göndermez. Yüz hareketi analizi cihaz üzerinde gerçekleştirilir. Kamera yalnızca hareket kontrolü etkinleştirildiğinde kullanılır.
 
 ## Proje yapısı
 
@@ -98,12 +100,12 @@ Uygulama kullanıcı dosyalarını, notlarını veya kamera görüntülerini bir
 
 ## Köken ve lisans
 
-Saz ü Söz, açık kaynaklı [ExCoda](https://github.com/appexcoda/excoda) projesi temel alınarak geliştirilmiş bir türev çalışmadır. Arayüz, marka, Türkçeleştirme, PDF okuma deneyimi, hareket seçenekleri ve kalem sistemi üzerinde değişiklikler yapılmıştır.
+Saz Pdf, açık kaynaklı [ExCoda](https://github.com/appexcoda/excoda) projesi temel alınarak geliştirilmiştir. Arayüz, marka, Türkçeleştirme, PDF okuma deneyimi, hareket seçenekleri ve kalem sistemi üzerinde değişiklikler yapılmıştır.
 
 Proje Apache License 2.0 ile lisanslanmıştır. Üçüncü taraf bileşenler ve atıflar için `NOTICE` dosyasına bakın.
 
 ## Sürüm
 
-Güncel sürüm: **v0.1**
+Güncel sürüm: **v1.0**
 
-Sürüm tarihi: **7 Ekim 2026**
+Sürüm tarihi: **8 Ekim 2026**
