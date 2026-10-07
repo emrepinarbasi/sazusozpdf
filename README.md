@@ -1,7 +1,7 @@
 # Saz ü Söz
 
 <p align="center">
-  <img src="[https://github.com/emrepinarbasi/sazusoz/releases/download/v0.1/ChatGPT.Gorseli.7.Eki.2026.22_16_21.png]" alt="Saz ü Söz logosu" width="640">
+  <img src="https://github.com/emrepinarbasi/sazusoz/releases/download/v0.1/ChatGPT.Gorseli.7.Eki.2026.22_16_21.png" alt="Saz ü Söz logosu" width="640">
 </p>
 
 **Saz ü Söz**, müzisyenler için geliştirilmiş Türkçe bir Android nota ve PDF okuyucusudur. Eserleri listeler hâlinde düzenlemeyi, PDF veya nota dosyalarını görüntülemeyi, sayfalar üzerinde kalıcı notlar almayı ve sayfaları eller serbest biçimde çevirmeyi amaçlar.
